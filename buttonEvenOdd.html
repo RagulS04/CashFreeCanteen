@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <style>
+        .clicks {
+            color: red;
+            background-color: yellow;
+            height: 20%; width: 40%;
+            position: relative;
+            margin-top: 30%; margin-left: 30%;
+        }
+
+        .evenclicks {
+            color: red;
+            background-color: yellow;
+            height: 20%; width: 40%;
+            position: relative;
+            margin-top: 30%; margin-left: 30%;
+        }
+
+        .oddclicks {
+            color: black;
+            background-color: blanchedalmond;
+            height: 100px; width: 100px;
+            position: relative;
+            margin-top: 30%; margin-left: 10%;
+        }
+
+    </style>
+
+    <script>
+        
+        function changefunc() {
+            var count = 0;
+            count = count+1;
+            var elem = document.getElementById("clicks");
+            var elem2 = document.getElementById("clicks2");
+            if (count%2 == 1) { 
+                elem.classList.toggle("oddclicks");
+                elem2.classList.toggle("oddclicks");
+            }
+            else { 
+                elem.classList.toggle("evenclicks"); 
+                elem2.classList.toggle("evenclicks");
+            }
+        }
+    </script>
+
+</head>
+
+<body >
+    even clicks: div content in center<br>
+    odd clicks: div content in side<br> 
+    <button onclick="changefunc()" id = "btn">click button to change hello position and styling </button>
+    <div style = "display: flex;">
+    <div class="clicks" id = "clicks">
+        hello
+    </div>
+
+    <div class="clicks" id = "clicks2"> bello </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+body {
+    position: absolute;
+    top: -8px ;  left: -8px; right: -8px;
+    border: 1px solid red;
+    height: 99.5%;   width: auto;
+    display: block;
+    background-image: url("C:/Users/Tanuj Darshan/OneDrive/ProjectDBMS/BG/BG-75.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+@font-face {
+    font-family: usersideBar;
+    src: url("C:/Users/Tanuj Darshan/OneDrive/ProjectDBMS/font/QueensidesMedium.ttf");
+}
+
+@font-face {
+    font-family: contentFont;
+    src: url("C:/Users/Tanuj Darshan/OneDrive/ProjectDBMS/font/Edition.ttf");
+}
+
+.display {
+    border: 1px solid black;
+    display: flex;
+    position: relative; 
+    top: 0px ;  left: 0px;
+    width: auto;
+    height: max-content;
+}
+
+.loginUser {
+    border-radius: 40px;
+    background-color: rgb(236, 231, 224, 0.762);
+    height: 360px;
+}
+
+.loginUserOut {
+    display: block;  opacity: 1;
+    position: relative;
+    border: 1px solid red;
+    align-items: center;
+    margin-top: 17%; margin-left: auto; margin-right: 1.2%;
+    height: max-content;    width: 21%;
+    border-radius: 40px;
+    font-family: usersideBar; font-weight: bold;
+}
+
+.loginUserOutHide {
+    display: none;  opacity: 0;
+    position: relative;
+    border: 1px solid red;
+    align-items: center;
+    margin-top: 17%; margin-left: auto; margin-right: 1.2%;
+    height: max-content;    width: 21%;
+    border-radius: 40px;
+    font-family: usersideBar; font-weight: bold;
+}
+
+.loginUserWelcome {
+    border: none;
+    padding-top: 1vw; padding-bottom: 1vw; display: block;
+    font-style: normal; font-size: 4vw;
+    color: rgb(52, 129, 82);
+}
+
+.loginUserIn {
+    border: 1px solid red;
+    position: relative; 
+    color: rgb(52, 129, 82);  letter-spacing: 1.2px;
+    padding-top: 0.3vw;  padding-bottom: 0.3vw; padding-left: 1vw;
+    font-size: 14px;
+    align-items: center;
+}
+
+
+.loginUser .loginbtn { 
+        margin-top: 8%;  margin-left: 25%;
+        padding-top: 3%;  padding-bottom: 3%;   cursor: pointer;
+        height: 12%; width: 50%; font-size: 16px;
+        color: rgb(255, 250, 213);
+        background-color: rgb(13, 100, 85);
+        border: 2px solid rgb(13, 100, 85); 
+        border-radius: 22px; 
+    font-family: 'poppins', sans-serif;
+}
+
+.loginUser .loginbtn:hover {
+    background: rgb(51, 99, 103); border: none;  transition-duration: 0.4s;
+    color: rgb(245, 230, 240); 
+    padding-top: 1%;  padding-bottom: 1%; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 0.5%; margin-left: 2%;
+    padding: 3%; 
+    background-color: rgb(252, 243, 231);
+    color: rgb(90,70,90);
+    font-size: 14px;  border-radius: 5px;  
+    width: 90%;
+    border: none;
+    font-family: 'verdana', sans-serif;
+}
+
+.content {
+    display: inline;
+    font-family: contentFont;
+    border: 1px solid crimson;
+    margin-top: 41%; margin-left: 15%; 
+    height:fit-content; width: 35%;
+    color: rgb(121, 39, 51);
+}
+
+#cashfree { letter-spacing: 2px;    font-size: 70px; }
+#canteen { letter-spacing: 4px; font-size: 60px; }
+
+.signupBtn {
+    font-family: 'poppins',sans-serif;
+    cursor: pointer;
+    height: 50px;  width: 70%;  top: relative; 
+    padding-top: 0.1%;
+    position: relative;
+    margin-top: 5%; margin-left: 15%; 
+    text-align: center;
+    border-radius: 60px;    border: none;
+    background-color: rgb(236, 231, 224, 0.762);
+    font-size: 16px; 
+}
+
+.signupbtn:hover {
+    border: 2px solid rgb(255,154,18);
+    background-color: rgb(171, 212, 113);
+    color: whitesmoke;
+    padding-top: 0%;
+    font-size: 20px;
+    text-align:center;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+
+.signupPopup {
+    opacity: 0; display: none;
+    border: 1px solid yellow;
+    align-items: center;    
+    position: relative;
+    margin-top: -34%; margin-left: auto; margin-right: 1.2%;
+    height: 365px;    width: 21%;
+}
+
+.signupPopup.active {
+    opacity: 1; display: block;
+    align-items: center;    
+    position: relative;
+    margin-top: -34%; margin-left: auto; margin-right: 1.2%;
+    height: 365px;    width: 21%;
+    border-radius: 40px;
+    font-family: usersideBar; font-weight: bold;
+    background-color: rgb(236, 231, 224, 0.862);
+    transition-duration: 1s;
+}
+
+.signupUserIn {
+    border: 1px solid red;
+    position: relative; font-size: 15px;
+    color: rgb(52, 129, 82);  letter-spacing: 1.1px;
+    padding-top: 0.3vw;  padding-bottom: 0.3vw; padding-left: 1vw;
+}
+
+.signupUser {
+    border: none;
+    padding-top: 3%; padding-bottom: 3%; display: block;
+    font-style: normal; font-size: 22px; font-weight: bold;
+    color: rgb(52, 129, 82);
+}
+
+.signupSubmitBtn {
+    font-family: 'poppins',sans-serif;
+    cursor: pointer;
+    height: 50px;  width: 70%;  top: relative; 
+    padding-top: 0.1%;
+    position: relative;
+    margin-top: 18%; margin-left: 15%; 
+    text-align: center;
+    border-radius: 60px;    border: none;
+    background-color: rgb(236, 231, 224, 0.762);
+    font-size: 16px; 
+}
+
+.signupSubmitBtn:hover {
+    border: 2px solid rgb(255,154,18);
+    background-color: crimson;
+    color: white;
+    padding-top: 0%;
+    font-size: 20px;
+    text-align:center;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}

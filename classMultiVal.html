@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<body>
+	    <input type='text' id=“hid_id” class='hid_id' value='pongal' />
+	    <button onclick="myFunction('pongal')">Click me</button>
+
+        <input type='text' id=“hid_id2” class='hid_id' value='poori' />
+
+	    <button onclick="myFunction('poori')">Click me2</button>
+        <br><br>
+        <div id = "firstdiv" class = "firstdiv"> hello</div>
+
+        <style>
+            .firstdiv {
+                display: block;
+                border: 1px solid salmon;
+            }
+
+            .active {
+                display: none;
+            }
+        </style>
+
+	<script>
+
+    function hidemyFunction() {
+        document.getElementById("firstdiv").classList.toggle('active');
+    }
+
+	function myFunction(val) {
+	
+		  document.getElementById("firstdiv").innerHTML = val + "Added to cart" ;
+          setTimeout(hidemyFunction, 2000);
+	  }
+	
+
+
+	</script>
+
+	</body>
+</html>

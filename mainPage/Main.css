@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+button .fb{
+  background-color: red;
+  border: none;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.737), rgba(0, 0, 0, 0.7)), url(Image/m4.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.logo {
+  font-size: 4rem;
+  font-family: Copperplate, Papyrus, fantasy;
+  color: aliceblue;
+  margin-left: 1rem;
+}
+
+.navbar {
+  overflow: -moz-hidden-unscrollable;
+  overflow: hidden;
+  position: fixed; top: 0px; right: 0px; left: 0px;
+}
+  .navbar .log a {
+    width: 10px;
+    cursor: pointer;
+  }
+
+.main div {
+  display: inline-block;
+}
+.main li {
+  display: inline-block;
+  padding-left: 10em;
+  margin-top: -20px;
+  text-underline-offset: none;
+}
+.main li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 22px;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+.main .log {
+  float: right;
+  margin-top: 1.3em;
+  margin-right: 1.5em;
+  color: aliceblue;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 30px;
+}
+.main .log a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.homepage {
+  display: flex;
+}
+
+.items {
+  margin-top: 5%;
+  width: fit-content;  height: auto;
+  top: auto;
+}
+
+.items h2 {
+  color: aliceblue; text-align: center;
+}
+
+
+.items-container1 {
+  margin: 3em 12em 3em 12em;
+  width: 55em;
+  transition-duration: 0.6s;
+}
+
+.items-container2 {
+  margin: 3em 12em 3em 12em;
+  width: 55em;
+  transition-duration: 0.6s;
+}
+
+.items-container3 {
+  margin: 3em 12em 3em 12em;
+  width: 55em;
+  transition-duration: 0.6s;
+}
+
+.items-container4 {
+  margin: 3em 12em 3em 12em;
+  width: 55em;
+  transition-duration: 0.6s;
+}
+
+.items-container5 {
+  margin: 3em 12em 3em 12em;
+  width: 55em;
+  transition-duration: 0.6s;
+}
+
+.items-containerMove {
+  margin: 3em 5em 3em 5em;
+  width: 55em;
+  transition-duration: 0.6s;
+}
+
+.breakfast {
+  display: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.breakfast div {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.696);
+  margin: 20px;
+  border-radius: 30px;
+}
+.breakfast div .pongal-addbtn, .poori-addbtn, .uthapam-addbtn, .masaldosa-addbtn,   .vada-addbtn,   .dosa-addbtn,   .podidosa-addbtn {
+  margin-left: 20px;
+  padding: 6px 25px;
+  background-color: rgb(222, 148, 0);
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.breakfast span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.items-container1 img {
+  width: 150px;
+  height: 120px;
+  padding-bottom: 9px;
+  border-radius: 20px;
+  mix-blend-mode: multiply;
+}
+.items-container2 img {
+  width: 150px;
+  height: 120px;
+  padding-bottom: 9px;
+  border-radius: 20px;
+  mix-blend-mode: multiply;
+}
+.items-container3 img {
+  width: 150px;
+  height: 120px;
+  padding-bottom: 9px;
+  border-radius: 20px;
+  mix-blend-mode: multiply;
+}
+.items-container4 img {
+  width: 150px;
+  height: 120px;
+  padding-bottom: 9px;
+  border-radius: 20px;
+  mix-blend-mode: multiply;
+}
+.items-container5 img {
+  width: 150px;
+  height: 120px;
+  padding-bottom: 9px;
+  border-radius: 20px;
+  mix-blend-mode: multiply;
+}
+
+
+.lunch {
+  display: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.lunch div {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.696);
+  margin: 20px;
+  border-radius: 30px;
+}
+.lunch div .chickenbriyani-addbtn, .chickenfriedrice-addbtn, .vegbriyani-addbtn, .vegfriedrice-addbtn, .meals-addbtn, .chilliparotta-addbtn, .parotta-addbtn {
+  margin-left: 20px;
+  padding: 6px 25px;
+  background-color: rgb(222, 148, 0);
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.lunch span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.desert {
+  display: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.desert div {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.696);
+  margin: 20px;
+  border-radius: 30px;
+}
+.desert div .plaincake-addbtn,   .cupcake-addbtn,   .blackforest-addbtn,  .jamun-addbtn,  .carrothalwa-addbtn,  .donut-addbtn {
+  margin-left: 20px;
+  padding: 6px 25px;
+  background-color: rgb(222, 148, 0);
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.desert span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.juice {
+  display: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.juice div {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.696);
+  margin: 20px;
+  border-radius: 30px;
+}
+.juice div .apple-addbtn, .orange-addbtn, .lime-addbtn, .sweetlime-addbtn, .watermelon-addbtn, .pome-addbtn, .banana-addbtn, .pineapple-addbtn {
+  margin-left: 20px;
+  padding: 6px 25px;
+  background-color: rgb(222, 148, 0);
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.juice span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.snacks {
+  display: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.snacks div {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.696);
+  margin: 20px;
+  border-radius: 30px;
+}
+.snacks div .tea-addbtn, .coffee-addbtn, .masalvada-addbtn, .uvada-addbtn, .samosa-addbtn {
+  margin-left: 20px;
+  padding: 6px 25px;
+  background-color: rgb(222, 148, 0);
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.snacks span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cart {
+  opacity: 0;
+  z-index: 1;
+  display: none;
+  height: max-content;
+  border-radius: 20px;
+  margin-right: 5px;
+  color: aliceblue;
+  width: 30em;
+  background-color: rgb(33, 33, 33);
+  position: sticky; top: 15%;
+  scroll-behavior: smooth;
+  transition-duration: 0.6s;
+  overflow: hidden;
+  
+}
+.cart .yourorders {
+  margin-top: 8%;
+  margin-left: 6%;
+}
+.cart .cartitems {
+  display: block;
+}
+.cart .cartitems button {
+  height: 5%;
+  cursor: pointer;
+  background-color: rgb(148, 74, 74);
+  border: none;
+  border-radius: 6px;
+  padding: 0px 7px 0px 7px;
+}
+.cart .cartitems div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cart img {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.cart .orderbtn {
+  color: aliceblue;
+  float: right;
+  margin-right: 20px;
+  margin-top: 15%; 
+  margin-bottom: 10%;
+  padding: 8px 30px;
+  background-color: rgba(206, 8, 8, 0.833);
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer; 
+}
+
+.cart .closebtn {
+  margin-left: 20px;
+  margin-top: 15%;
+  padding: 8px 30px;
+  background-color: rgb(222, 148, 0);
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+center {
+  width: 55em;
+}
+.cart-btn {
+  display: block;
+  width: auto;
+  border: 1px solid blue; height:max-content;
+}
+
+.cart.active {
+  opacity: 1;
+  display: block;
+  transition-duration: 0.6s;
+}
+
+.cart .gt{
+  float: left;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.cart .gtot{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+/*# sourceMappingURL=Main.css.map */

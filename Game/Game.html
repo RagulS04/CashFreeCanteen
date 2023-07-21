@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1{
+                font-family:monaco;
+                color:white;
+                font-size:50px;
+                text-shadow:7px 7px 7px black;
+                background-color:black;
+                width:375px;
+                position:relative;
+                top:75px;left:10px;
+              }
+           div{
+                color:white;
+                font-family:Oxygen;
+                text-shadow:7px 7px black;
+                font-size:200px;
+                font-weight:bold;
+              }
+          .l2{
+                position:relative;
+                top:40px;
+                padding-left:125px;
+             }
+          .l1{
+                position:relative;
+                top:-110px;
+                padding-left:195px;
+             }        
+          input{
+                position:relative;
+                bottom:40px;left:40px;
+                width:140px;
+                height:40px;
+                font-size:20px;
+                background-color:rgb(161, 171, 161);
+                border-radius:5px;
+                letter-spacing:-1px;
+                font-family:monaco;
+                font-weight:bold;
+             }
+           body{
+                background:linear-gradient(189deg, rgb(255,95,108) 0%,rgb(255,95,108) 50%,rgb(50, 190, 255) 50%,rgb(50, 190, 255) 100%);
+                background-attachment:fixed;
+              }
+          .div{
+                display:none;
+              }
+          .div1{
+                border:1px solid black;
+                position:relative;
+                bottom:75px;
+                height:600px;
+                background-color:black;
+                border-radius:50px;
+                display:block;
+              }
+          .div2{
+                border:1px solid black;
+                position:relative;
+                bottom:55px;
+                height:300px;
+                background-color:black;
+                border-radius:50px;
+                display:block;
+              }
+          .div3{
+                border:1px solid black;
+                position:relative;
+                bottom:75px;
+                height:440px;
+                background-color:black;
+                border-radius:50px;
+                display:block;
+              }
+        </style>
+        <script>
+        function inst()
+        {
+ if(document.getElementById("p1").className=="div1")
+      document.getElementById("p1").className="div";
+ else
+            {
+     document.getElementById("p1").className="div1";
+    document.getElementById("p2").className="div";
+            }
+        }
+        function play()
+        {
+  if(document.getElementById("p2").className=="div")
+        {
+     document.getElementById("p2").className="div2";
+     document.getElementById("p1").className="div3";
+        }
+  else if(document.getElementById("p2").className=="div2")
+        { 
+     document.getElementById("p1").className="div";
+     document.getElementById("p2").className="div";
+        }
+        }
+        </script>
+    </head>
+    <body>
+        <h1><center>Number Game!</center></h1>
+        <div class="l2">2</div><div class="l1">1</div>
+        
+        <p id="p1" class="div"></p>
+        <p id="p2" class="div"></p>
+        <input type="submit" value="Instructions" onclick="inst()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Play" onclick="play()">
+    </body>
+</html>    

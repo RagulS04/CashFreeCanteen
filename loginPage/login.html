@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" type = "text/css" href = "loginCSS.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <script>
+
+        function disablescroll() {
+            // To get the scroll position of current webpage
+            TopScroll = window.pageYOffset || document.documentElement.scrollTop;
+            LeftScroll = window.pageXOffset || document.documentElement.scrollLeft,
+            
+            // if scroll happens, set it to the previous value
+            window.onscroll = function() {
+            window.scrollTo(LeftScroll, TopScroll);
+                    };
+        }
+
+        function loginUserOutHide() {
+                var loginOut = document.getElementById("loginUserOut");
+                loginOut.classList.toggle("loginUserOutHide");
+        }
+
+        function signupPopupFunc() {
+            document.getElementsByClassName("signupPopup")[0].classList.add("active");
+            loginUserOutHide();
+        }
+        
+
+    </script>
+</head>
+
+<body>
+
+<div class = "display">
+    <div class = "content"> <span id = "cashfree">cashfree</span><br><span id = "canteen">canteen</span> </div>
+    <div class = "loginUserOut" id = "loginUserOut">
+        <div class = "loginUser">
+            <div class = "loginUserWelcome"> <center> Welcome</center> </div>
+        
+            <form id = "loginForm" action = "" method = "post">
+            
+                <div class = "loginUserIn">
+                    <label for="loginRoll"> &nbsp;Roll No </label><br>
+                    <input id="loginroll" name="loginroll" type="text" required>
+                    <div class="error"> </div>
+                </div>
+
+                <div class = "loginUserIn">
+                    <label for="loginPswd"> &nbsp;Password </label><br>
+                    <input id="loginpswd" name="loginpswd" type="password" required>                        
+                    <div class="error"></div>
+                </div>
+                <button type="submit" name = "loginSubmit" class = "loginbtn"> login </button>
+            </form>
+        </div>
+    
+        <button type = "submit" name = "signupbtn" class = "signupBtn" id="signupbtn" onclick="signupPopupFunc()"> signup </button>
+    </div>
+
+</div>
+
+    <!-- sign up popup-->
+    <div class = "signupPopup"> 
+
+        <div class = "signupUser"> <center> User Signup</center> </div>
+
+        <div class = "signupUserIn">
+            <label for="signupRoll"> &nbsp;Roll No </label><br>
+            <input id="signuproll" name="signuproll" type="text" required>                        
+            <div class="error"></div>
+        </div>
+
+        <div class = "signupUserIn">
+            <label for="signupPhone"> &nbsp;Phone </label><br>
+            <input id="signupphone" name="signupphone" type="text" required>                        
+            <div class="error"></div>
+        </div>
+
+        <div class = "signupUserIn">
+            <label for="signupPswd"> &nbsp;Password </label><br>
+            <input id="signuppswd" name="signuppswd" type="password" required>                        
+            <div class="error"></div>
+        </div>
+
+        <div class = "signupUserIn">
+            <label for="signupConfPswd"> &nbsp;Confirm Password </label><br>
+            <input id="signupconfpswd" name="signupconfpswd" type="password" required>                        
+            <div class="error"></div>
+        </div>
+
+    <button type = "submit" name = "signupSubmit" class = "signupSubmitBtn" onclick="" id="signupsubmitbtn" > signup </button>
+    </div>
+
+   
+    
+
+</body>
+
+</html>

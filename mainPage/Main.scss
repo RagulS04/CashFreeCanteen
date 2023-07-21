@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.737),rgba(0, 0, 0, 0.7)),url(Image/m4.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.logo{
+    font-size: 4rem;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: aliceblue;
+    margin-left: 1rem;
+}
+header{
+  
+    .main{
+        position: sticky;
+    }
+    .log{
+        a{
+            width: 10px;
+            cursor: pointer;
+        }
+    }
+}
+.main {
+    div{
+        display: inline-block;
+    }
+    li{
+        display: inline-block;
+        padding-left: 10em;
+        margin-top: -20px;
+        text-underline-offset: none;
+        a{
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 22px;
+            font-family: Copperplate, Papyrus, fantasy;
+        }
+    }
+    .log{
+        float: right;
+        margin-top: 1.3em;
+        margin-right: 1.5em;
+        color: aliceblue;
+        font-family: Copperplate, Papyrus, fantasy;
+        font-size: 30px;
+        a{
+            text-decoration: none;
+            color:aliceblue;
+        }
+    }
+}
+
+
+.homepage{
+    display: flex;
+}
+
+.items-containerMove {
+    margin: 3em 5em 3em 5em;
+    width: 55em;
+    transition-duration: 0.6s;
+}
+
+.items-container1{
+    h2{
+        color: aliceblue;
+    }
+    margin: 3em 10em 3em 10em;
+    width: 55em;
+    .breakfast{
+        display: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-evenly;
+        div{
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.696);
+            margin: 20px;
+            border-radius:30px ;
+            .pongal-addbtn,.poori-addbtn,.uthapam-addbtn,.masaldosa-addbtn,.vada-addbtn,.dosa-addbtn,.podidosa-addbtn{
+                margin-left: 20px;
+                padding: 6px 25px;
+                background-color: rgb(222, 148, 0);
+                border:none;
+                border-radius: 7px;
+                font-weight: bold;
+                cursor: pointer;
+            }   
+        }
+        
+        span{
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+    }
+    img{
+        width: 150px;
+        height:120px;
+        padding-bottom: 9px;
+        border-radius: 20px;
+        mix-blend-mode:multiply;
+    }
+}
+
+.items-container2{
+    h2{
+        align-items: center;
+        color: aliceblue;
+    }
+    margin: 3em 10em 3em 10em;
+    width: 55em;
+    .lunch{
+        display: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-evenly;
+        div{
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.696);
+            margin: 20px;
+            border-radius:30px ;
+            .chickenbriyani-addbtn,.chickenfriedrice-addbtn,.vegbriyani-addbtn,.vegfriedrice-addbtn,.meals-addbtn,.chilliparotta-addbtn,.parotta-addbtn{
+                margin-left: 20px;
+                padding: 6px 25px;
+                background-color: rgb(222, 148, 0);
+                border:none;
+                border-radius: 7px;
+                font-weight: bold;
+                cursor: pointer;
+            }   
+        }
+        
+        span{
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+    }
+    img{
+        width: 150px;
+        height:120px;
+        padding-bottom: 9px;
+        border-radius: 20px;
+        mix-blend-mode: multiply;
+    }
+}
+.items-container3{
+    h2{
+        align-items: center;
+        color: aliceblue;
+    }
+    margin: 3em 10em 3em 10em;
+    width: 55em;
+    .desert{
+        display: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-evenly;
+        div{
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.696);
+            margin: 20px;
+            border-radius:30px ;
+            .plaincake-addbtn,.cupcake-addbtn,.blackforest-addbtn,.jamun-addbtn,.carrothalwa-addbtn,.donut-addbtn{
+                margin-left: 20px;
+                padding: 6px 25px;
+                background-color: rgb(222, 148, 0);
+                border:none;
+                border-radius: 7px;
+                font-weight: bold;
+                cursor: pointer;
+            }   
+        }
+        
+        span{
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+    }
+    img{
+        width: 150px;
+        height:120px;
+        padding-bottom: 9px;
+        border-radius: 20px;
+        mix-blend-mode: multiply;
+    }
+}
+.items-container4{
+    h2{
+        align-items: center;
+        color: aliceblue;
+    }
+    margin: 3em 10em 3em 10em;
+    width: 55em;
+    .juice{
+        display: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-evenly;
+        div{
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.696);
+            margin: 20px;
+            border-radius:30px ;
+            .apple-addbtn,.orange-addbtn,.lime-addbtn,.sweetlime-addbtn,.watermelon-addbtn,.pome-addbtn,.banana-addbtn,.pineapple-addbtn{
+                margin-left: 20px;
+                padding: 6px 25px;
+                background-color: rgb(222, 148, 0);
+                border:none;
+                border-radius: 7px;
+                font-weight: bold;
+                cursor: pointer;
+            }   
+        }
+        
+        span{
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+    }
+    img{
+        width: 150px;
+        height:120px;
+        padding-bottom: 9px;
+        border-radius: 20px;
+        mix-blend-mode: multiply;
+    }
+}
+
+.items-container5{
+    h2{
+        align-items: center;
+        color: aliceblue;
+    }
+    margin: 3em 10em 3em 10em;
+    width: 55em;
+    .snacks{
+        display: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: space-evenly;
+        div{
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.696);
+            margin: 20px;
+            border-radius:30px ;
+            .tea-addbtn,.coffee-addbtn,.masalvada-addbtn,.uvada-addbtn,.samosa-addbtn{
+                margin-left: 20px;
+                padding: 6px 25px;
+                background-color: rgb(222, 148, 0);
+                border:none;
+                border-radius: 7px;
+                font-weight: bold;
+                cursor: pointer;
+            }   
+        }
+        
+        span{
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+    }
+    img{
+        width: 150px;
+        height:120px;
+        padding-bottom: 9px;
+        border-radius: 20px;
+        mix-blend-mode: multiply;
+    }
+}
+
+.cart{
+    z-index: 1;
+    opacity:0;
+    height:fit-content;
+    border-radius: 20px;
+    margin-right: 5px;
+    color: aliceblue;
+    width: 100em;
+    background-color: rgb(33, 33, 33);
+    .yourorders{
+        margin-top: 8%;
+        margin-left: 6%;
+    }
+    .cartitems{
+        display:block;
+        button{
+            height: 5%;
+            cursor: pointer;
+            background-color: rgb(148, 74, 74);
+            border: none;
+            border-radius: 6px;
+            padding: 0px 7px 0px 7px;
+        }
+        div{
+            display: flex;
+            justify-content:space-evenly;
+        }
+    }
+    img{
+        width: 70px;
+        height: 70px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .orderbtn{
+        float: right;
+        color: aliceblue;
+        margin-right: 20px;
+        margin-top: 20%;
+        margin-bottom: 10%;
+        padding: 8px 35px;
+        background-color: rgba(206, 8, 8, 0.833);
+        border:none;
+        border-radius: 7px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .closebtn{
+        float: left;
+        margin-left: 20px;
+        margin-top: 20%;
+        padding: 6px 30px;
+        background-color: rgb(222, 148, 0);
+        border:none;
+        border-radius: 7px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .gt{
+        float: left;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .gtot{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+
+    }
+}
+center{
+    width: 55em;
+}
+
+.cart.active{
+    opacity: 1;
+    display: block;
+}
