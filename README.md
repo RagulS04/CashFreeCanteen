@@ -47,4 +47,4 @@ To run this project locally, follow these steps:
 4. Open your web browser and navigate to http://localhost/CashFreeCanteen.
 
 # Contact
-Feel free to contact me via email at selvarathinammurugesan@email.com or connect with me on LinkedIn[https://www.linkedin.com/in/selvarathinam-m].
+Feel free to contact me via email at selvarathinammurugesan@email.com or connect with me on [LinkedIn](https://www.linkedin.com/in/selvarathinam-m).
