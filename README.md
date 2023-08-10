@@ -10,9 +10,6 @@ The Cash Free Canteen is a web-based application designed to streamline the orde
 - - [Student Interface](#student-interface)
   - [Admin Interface](#admin-interface)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Preview 
@@ -33,3 +30,21 @@ The Cash Free Canteen is a web-based application designed to streamline the orde
 
 - Manage food items: add, update, or remove items.
 - Recharge student accounts with predefined amounts.
+
+# Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/SelvaRM04/CashFreeCanteen.git
+
+2. Move the project folder to the appropriate directory in your XAMPP installation (usually localdisk\xampp\htdocs).
+
+3. Start XAMPP and make sure Apache and MySQL services are running.
+
+4. Open your web browser and navigate to http://localhost/CashFreeCanteen.
+
+# Contact
+Feel free to contact me via email at selvarathinammurugesan@email.com or connect with me on LinkedIn[https://www.linkedin.com/in/selvarathinam-m].
